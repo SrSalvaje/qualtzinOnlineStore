@@ -2,6 +2,10 @@
 
 ## Look into
 
+### Configure Babelrc
+
+https://dev.to/aprietof/nextjs--styled-components-the-really-simple-guide----101c
+
 [server vs client rendering?](https://medium.freecodecamp.org/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d)
 next.js
 apollo
