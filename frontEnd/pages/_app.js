@@ -2,12 +2,15 @@ import App, { Container } from 'next/app';
 import Page from '../components/Page';
 
 class MyApp extends App {
+    state = {
+        storeTitle: 'My Store Name'
+    };
     render() {
         const { Component } = this.props;
 
         return (
             <Container>
-                <Page />
+                <Page storeTitle={this.state.storeTitle} />
                 <Component />
             </Container>
         );
