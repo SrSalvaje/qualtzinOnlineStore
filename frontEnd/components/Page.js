@@ -15,6 +15,6 @@ export default class Page extends Component {
     }
 }
 
-Page.PropTypes = {
+Page.propTypes = {
     storeTitle: PropTypes.string
 };
