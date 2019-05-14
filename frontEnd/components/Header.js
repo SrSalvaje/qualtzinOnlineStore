@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 
 const Header = props => (
