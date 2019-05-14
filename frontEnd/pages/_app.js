@@ -10,8 +10,9 @@ class MyApp extends App {
 
         return (
             <Container>
-                <Page storeTitle={this.state.storeTitle} />
-                <Component />
+                <Page storeTitle={this.state.storeTitle}>
+                    <Component />
+                </Page>
             </Container>
         );
     }
