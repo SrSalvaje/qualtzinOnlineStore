@@ -2,22 +2,22 @@ import React from 'react';
 import Nav from './Nav';
 import PropTypes from 'prop-types';
 
-const Header = props => {
-    return (
-        <div>
-            <div className="bar">
-                <a href="">{props.storeTitle}</a>
-                <Nav />
-            </div>
-            <div className="sub-bar">
-                <p>Search</p>
-            </div>
-            <div>Cart</div>
+const Header = props => (
+    <div>
+        <div className="bar">
+            <Link href="/">
+                <a>{props.storeTitle}</a>
+            </Link>
+            <Nav />
         </div>
-    );
-};
+        <div className="sub-bar">
+            <p>Search</p>
+        </div>
+        <div>Cart</div>
+    </div>
+);
 
-Header.PropTypes = {
+Header.propTypes = {
     storeTitle: PropTypes.string
 };
 
