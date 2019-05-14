@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fullstack React
 
 ## Look into
@@ -85,3 +86,16 @@ ptoos→ PropTypes.objectOf(PropTypes.shape()),
 ptoosr→ PropTypes.objectOf(PropTypes.shape()).isRequired,
 ptsh→ PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}),
 ptshr→ PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}).isRequired,
+||||||| merged common ancestors
+=======
+# Fullstack React
+
+## Look into
+
+server vs client rendering?
+next.js
+apollo
+html5 push state
+
+## sharing data between next.js pages
+>>>>>>> Note:  add doubts to "look into"
