@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Meta from './Meta';
+import Header from '../Header/Header';
+import Meta from '../Meta/Meta';
 import PropTypes from 'prop-types';
 
 export default class Page extends Component {

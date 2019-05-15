@@ -1,3 +1,5 @@
+// * This is hidden by default, we need to customize it in order to allow styled-components to do SSR correctly
+
 import Document, { Head, Main, NextScript } from 'next/document';
 //  Import styled components ServerStyleSheet
 import { ServerStyleSheet } from 'styled-components';
@@ -32,12 +34,3 @@ export default class MyDocument extends Document {
     }
 }
 //  https://dev.to/aprietof/nextjs--styled-components-the-really-simple-guide----101c
-
-/**
- * normal
- * * highlight
- * ! Alert
- * ? question
- * todo
- *
- * **/
