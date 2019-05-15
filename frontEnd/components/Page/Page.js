@@ -9,6 +9,7 @@ export default class Page extends Component {
             <div>
                 <Meta storeTitle={this.props.storeTitle} />
                 <Header storeTitle={this.props.storeTitle} />
+                <p>I am everywhere</p>
                 {this.props.children}
             </div>
         );
