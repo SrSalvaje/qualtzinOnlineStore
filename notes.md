@@ -2,6 +2,10 @@
 
 ## Look into
 
+## Tips
+
+1. When using stateless components in Next.js you dont need to import react.
+
 ### Configure Babelrc
 
 https://dev.to/aprietof/nextjs--styled-components-the-really-simple-guide----101c
