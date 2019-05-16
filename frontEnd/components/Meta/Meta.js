@@ -11,7 +11,7 @@ const Meta = props => (
     </Head>
 );
 
-Meta.PropTypes = {
+Meta.propTypes = {
     storeTitle: PropTypes.string
 };
 
