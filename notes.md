@@ -17,6 +17,70 @@ html5 push state
 
 ## sharing data between next.js pages
 
+## styled-components
+
+import statement:
+
+`import styled from 'styled-components';`
+
+Syntax:
+
+```js
+const Styled<name> = styled.<htmlElement>`
+    background: red;
+    font-size: 50px;
+`;
+```
+
+You can pass props as a function:
+
+```js
+const StyledParagraph = styled.button`
+    background: ${props => props.backColor};
+    font-size: 50px;
+`;
+```
+
+And create themes
+
+```js
+//theme.js
+const theme1 = {
+    red: '#FF0000',
+    black: '#393939',
+    grey: '#3A3A3A',
+    lightgrey: '#E1E1E1',
+    offWhite: '#EDEDED',
+    maxWidth: '1000px',
+    bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
+};
+export default theme1;
+
+//style.js
+const StyledMainDiv = styled.div`
+    background: white;
+    color: ${props => props.theme.black};
+`;
+
+//page.js
+import theme1 from '../../global Styles/theme';
+import { ThemeProvider, injectGlobal } from 'styled-components';
+import StyledMainDiv from './stylesPage';
+
+//class declaration
+//..
+return (
+    <ThemeProvider theme={theme1}>
+        <StyledMainDiv>
+            <Meta storeTitle={this.props.storeTitle} />
+            <Header storeTitle={this.props.storeTitle} />
+            <p>I am everywhere</p>
+            {this.props.children}
+        </StyledMainDiv>
+    </ThemeProvider>
+);
+```
+
 ## Reactjs snippets
 
 Trigger Content
