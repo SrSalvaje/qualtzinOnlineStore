@@ -1,9 +1,9 @@
-import Nav from '../Nav/Nav';
 import Link from 'next/link';
+import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
 import { Logo, StyledHeader } from './stylesHeader';
 import theme1 from '../../global Styles/theme';
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import Nav from '../Nav/Nav';
 
 const Header = props => (
     <ThemeProvider theme={theme1}>
