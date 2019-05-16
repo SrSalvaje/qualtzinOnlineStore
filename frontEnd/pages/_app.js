@@ -15,7 +15,7 @@ class MyApp extends App {
 
     // * Here is State
     state = {
-        storeTitle: 'My Store Name'
+        storeTitle: 'Store Name'
     };
 
     render() {
