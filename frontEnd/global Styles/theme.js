@@ -1,5 +1,3 @@
-//import styled from 'styled-components';
-
 const theme1 = {
     red: '#FF0000',
     black: '#393939',
