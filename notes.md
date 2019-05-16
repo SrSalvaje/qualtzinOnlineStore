@@ -17,6 +17,30 @@ html5 push state
 
 ## sharing data between next.js pages
 
+## styled-components
+
+import statement:
+
+`import styled from 'styled-components';`
+
+Syntax:
+
+```js
+const Styled<name> = styled.<htmlElement>`
+    background: red;
+    font-size: 50px;
+`;
+```
+
+You can pass props as a function:
+
+```js
+const StyledParagraph = styled.button`
+    background: ${props => props.backColor};
+    font-size: 50px;
+`;
+```
+
 ## Reactjs snippets
 
 Trigger Content
