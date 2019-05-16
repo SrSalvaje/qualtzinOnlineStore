@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 //theme used by styled-components, it has any css values I might reuse
 import theme1 from '../../global Styles/theme';
 // ! Needed by styled-components to access the theme, its based on the React Context api
-import { ThemeProvider, injectGlobal } from 'styled-components';
+import { ThemeProvider, createGlobalStyle } from 'styled-components';
 // my styled components
 import { StyledMainDiv, StyledInnerDiv } from './stylesPage';
 
